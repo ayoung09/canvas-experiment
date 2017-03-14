@@ -1,0 +1,33 @@
+#my-canvas {
+    position: absolute;
+    top: 0; left: 0;
+    border-style: solid;
+    width: 100%; height: 90%;
+}
+
+#color-selector {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 150px;
+    background: black;
+}
+
+.marker {
+    width: 45px;
+    height: 45px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.marker.selected {
+    border: 2px solid white;
+}
+
+#submit {
+    margin: 4px;
+    font-size: 48px;
+    color: white;
+    background-color: #00BFFF;
+}
